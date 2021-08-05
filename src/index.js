@@ -4,8 +4,8 @@ import { render } from 'react-dom';
 import App from './components/app/App';
 
 render(
-  <Router>
-    <App />
-  </Router>,
+
+  <App />,
+
   document.getElementById('root')
 );
