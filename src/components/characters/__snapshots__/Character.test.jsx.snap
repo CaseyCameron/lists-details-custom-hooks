@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar characters list renders a character on the home page 1`] = `
+<DocumentFragment>
+  <div
+    aria-label="character"
+  >
+    <figure>
+      <figcaption>
+        <p>
+          Analay
+        </p>
+      </figcaption>
+      <img
+        alt="Analay"
+        src="https://vignette.wikia.nocookie.net/avatar/images/c/c3/Analay.png/revision/latest?cb=20140430182201"
+      />
+    </figure>
+  </div>
+</DocumentFragment>
+`;
