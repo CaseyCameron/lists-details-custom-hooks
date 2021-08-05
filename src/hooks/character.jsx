@@ -13,11 +13,12 @@ export const useCharacters = (page) => {
   return { loading, characters };
 };
 
-export const useCharacter = (id) => {
+export const useCharacter = (_id) => {
   const [character, setCharacter] = useState(null);
 
   useEffect(() => {
-    fetchCharacterById(id).then(setCharacter);
-  }, []);
+    fetchCharacterById(_id)
+      .then(setCharacter)
+  });
   return character;
 };

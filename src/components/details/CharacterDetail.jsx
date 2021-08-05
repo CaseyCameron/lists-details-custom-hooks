@@ -3,23 +3,30 @@ import { useParams } from 'react-router-dom';
 import { useCharacter } from '../../hooks/character';
 
 const CharacterDetail = () => {
-  const { id } = useParams();
-  const character = useCharacter(id);
+  let { _id } = useParams();
+  const character = useCharacter(_id);
   if (!character) return <h1>Loading...</h1>;
+  const stringyAllies = JSON.stringify(character.allies);
+  const stringyEnemies = JSON.stringify(character.enemies);
+
   return (
     <section>
       <h2>Character Details</h2>
       <dl>
         <dt>Name:</dt>
         <dd>{character.name}</dd>
+
         <dt>Affiliation:</dt>
-        <dd>{affiliation}</dd>
+        {character.affiliation && <dd>{character.affiliation}</dd>}
+
         <dt>Allies:</dt>
-        <dd>{allies}</dd>
+        <dd>{stringyAllies}</dd>
+
         <dt>Enemies:</dt>
-        <dd>{enemies}</dd>
+        <dd>{stringyEnemies}</dd>
+
         <dt>Image</dt>
-        <dd><img src={photoUrl} alt={character.name} /></dd>
+        <dd><img src={character.photoUrl} alt={character.name} /></dd>
       </dl>
     </section>
   )

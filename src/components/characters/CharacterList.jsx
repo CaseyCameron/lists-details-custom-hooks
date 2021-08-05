@@ -10,11 +10,13 @@ const CharacterList = () => {
 
   const characterElements = characters.map(character => (
     <li key={character._id}>
-      <Link to={`/${character.id}`}>
+      <Link to={`/${character._id}`}>
         <Character {...character} />
       </Link>
     </li>
   ));
+
+  console.log(characterElements);
 
   return (
     <>

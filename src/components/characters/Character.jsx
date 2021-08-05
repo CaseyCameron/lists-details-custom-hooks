@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Character = ({ name, affiliation, photoUrl }) => {
+const Character = ({ name, photoUrl }) => {
   return (
     <figure>
       <figcaption>
