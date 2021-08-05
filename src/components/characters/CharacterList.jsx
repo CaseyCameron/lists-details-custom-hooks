@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Character from './Character';
-import { useCharacters } from './hooks/useCharacters';
+import { useCharacters } from '../../hooks/character';
 
-const CharacterList = ({ characters }) => {
+const CharacterList = () => {
   const [page, setPage] = useState(1)
   const { characters, loading } = useCharacters(page);
   if (loading) return <h1>Loading...</h1>;
@@ -20,10 +20,11 @@ const CharacterList = ({ characters }) => {
     <>
       <button
         disabled={page <= 1}
-        oncClick={() => setPage((prevPage) => prevPage - 1)}
+        onClick={() => setPage((prevPage) => prevPage - 1)}
       >
         &lt;
       </button>
+      {page}
       <button onClick={() => setPage((prevPage) => prevPage + 1)}>&gt;</button>
       <ul>{characterElements}</ul>;
     </>

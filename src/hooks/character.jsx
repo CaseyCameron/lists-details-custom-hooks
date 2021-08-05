@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { fetchCharacters, fetchCharacterById } from '../services/CharacterFetch';
 
-export const useCharacters = () => {
+export const useCharacters = (page) => {
   const [loading, setLoading] = useState(true);
   const [characters, setCharacters] = useState([]);
 

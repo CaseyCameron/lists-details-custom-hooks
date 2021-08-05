@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character Detail List Component Character List rendering test 1`] = `
+<DocumentFragment>
+  <ul>
+    <li>
+      <figure>
+        <img
+          alt="Analy"
+          src="https://vignette.wikia.nocookie.net/avatar/images/c/c3/Analay.png/revision/latest?cb=20140430182201"
+        />
+        <figcaption>
+          <p>
+            Analy
+          </p>
+          <p>
+            Unnamed team
+          </p>
+          <p />
+        </figcaption>
+      </figure>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
