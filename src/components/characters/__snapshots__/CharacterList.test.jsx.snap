@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar characters list Renders a list of avatar characters 1`] = `
+<ul>
+  <li>
+    <a
+      href="/5cf5679a915ecad153ab68d1"
+    >
+      <figure>
+        <figcaption>
+          <p>
+            Analay
+          </p>
+        </figcaption>
+        <img
+          alt="Analay"
+          src="https://vignette.wikia.nocookie.net/avatar/images/c/c3/Analay.png/revision/latest?cb=20140430182201"
+        />
+      </figure>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5cf5679a915ecad153ab68d5"
+    >
+      <figure>
+        <figcaption>
+          <p>
+            Arik
+          </p>
+        </figcaption>
+        <img
+          alt="Arik"
+          src="https://vignette.wikia.nocookie.net/avatar/images/6/6f/Arik.png/revision/latest?cb=20140808184002"
+        />
+      </figure>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5cf5679a915ecad153ab68e2"
+    >
+      <figure>
+        <figcaption>
+          <p>
+            Baatar Jr.
+          </p>
+        </figcaption>
+        <img
+          alt="Baatar Jr."
+          src="https://vignette.wikia.nocookie.net/avatar/images/4/45/Baatar_Jr..png/revision/latest?cb=20150409193510"
+        />
+      </figure>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5cf5679a915ecad153ab68e9"
+    >
+      <figure>
+        <figcaption>
+          <p>
+            Bolin
+          </p>
+        </figcaption>
+        <img
+          alt="Bolin"
+          src="https://vignette.wikia.nocookie.net/avatar/images/d/d4/Bolin.png/revision/latest?cb=20150406232314"
+        />
+      </figure>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5cf5679a915ecad153ab68fd"
+    >
+      <figure>
+        <figcaption>
+          <p>
+            Chan (Fire Nation admiral)
+          </p>
+        </figcaption>
+        <img
+          alt="Chan (Fire Nation admiral)"
+        />
+      </figure>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5cf5679a915ecad153ab6900"
+    >
+      <figure>
+        <figcaption>
+          <p>
+            Chit Sang
+          </p>
+        </figcaption>
+        <img
+          alt="Chit Sang"
+          src="https://vignette.wikia.nocookie.net/avatar/images/8/81/Chit_Sang.png/revision/latest?cb=20121021000707"
+        />
+      </figure>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5cf5679a915ecad153ab68d7"
+    >
+      <figure>
+        <figcaption>
+          <p>
+            Asami Sato
+          </p>
+        </figcaption>
+        <img
+          alt="Asami Sato"
+          src="https://vignette.wikia.nocookie.net/avatar/images/b/b6/Asami_Sato.png/revision/latest?cb=20150407110150"
+        />
+      </figure>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5cf5679a915ecad153ab68f0"
+    >
+      <figure>
+        <figcaption>
+          <p>
+            Bum-Ju
+          </p>
+        </figcaption>
+        <img
+          alt="Bum-Ju"
+          src="https://vignette.wikia.nocookie.net/avatar/images/b/b6/Bum-Ju.png/revision/latest?cb=20140730103156"
+        />
+      </figure>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5cf5679a915ecad153ab68f5"
+    >
+      <figure>
+        <figcaption>
+          <p>
+            Butler
+          </p>
+        </figcaption>
+        <img
+          alt="Butler"
+          src="https://vignette.wikia.nocookie.net/avatar/images/8/82/Butler.png/revision/latest?cb=20121107115044"
+        />
+      </figure>
+    </a>
+  </li>
+  <li>
+    <a
+      href="/5cf5679a915ecad153ab68ed"
+    >
+      <figure>
+        <figcaption>
+          <p>
+            Broadsword man
+          </p>
+        </figcaption>
+        <img
+          alt="Broadsword man"
+          src="https://vignette.wikia.nocookie.net/avatar/images/9/98/Broadsword_man.png/revision/latest?cb=20130630171553"
+        />
+      </figure>
+    </a>
+  </li>
+</ul>
+`;
